@@ -26,3 +26,11 @@ pre{
     color: rgba(0, 0, 0,0.5);
     opacity: 0.5;
 }
+h1{
+    font-family: sans-serif;
+}
+body{
+    background-image: url("cross.png");
+    background-position: top;
+    background-color: #DCF5F5;
+}
