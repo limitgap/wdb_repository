@@ -3,7 +3,7 @@ h3{
     
 }
 p{
-    font-family: serif;
+    font-family: Noto Serif, serif;
 }
 a{
     color: darkgreen;
@@ -17,7 +17,7 @@ mark{
 }
 h2{
     text-align: left;
-    font-family: sans-serif;
+    font-family: Raleway, sans-serif;
 }
 pre{
     font-family: monospace;
@@ -27,7 +27,7 @@ pre{
     opacity: 0.5;
 }
 h1{
-    font-family: sans-serif;
+    font-family: Raleway, sans-serif;
 }
 body{
     background-image: url("cross.png");
@@ -84,10 +84,6 @@ body{
     width: 700px;
     height: 200px;
 }
-.outer{
-    background-color: white;
-    border-radius: 8px;
-}
 .blue-box-2{
     margin-top: 20px;
     margin: 10px 20px;
@@ -104,4 +100,29 @@ body{
     width: 400px;
     height: 400px;
     border: 1px solid red;
+}
+.multi-line{
+    font-family: Raleway, serif;
+    color: dimgrey;
+    line-height: 1.5;
+    word-spacing: 0.2em;
+    text-align: justify;
+}
+h4{
+    font-family: Raleway, serif;
+    font-weight: normal;
+}
+.fa-facebook-f{
+    color: #bfcfd4;
+}
+.fa-twitter{
+    color: #bfcfd4;
+}
+.fa-share-nodes{
+    color: #bfcfd4;
+}
+.icons{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
